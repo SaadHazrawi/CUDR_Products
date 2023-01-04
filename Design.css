@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-color: #222;
+  color: #fff;
+  font-family: system-ui;
+}
+.crud{
+  width:80%;
+  margin: auto;
+}
+.head{
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+input{
+  width:100%;
+  height: 25px;
+  outline: none;
+  border:none;
+  background-color: #111;
+  margin:4px 0;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+  transition-duration:0.5s ;
+  -webkit-transition-duration:0.5s ;
+  -moz-transition-duration:0.5s ;
+  -ms-transition-duration:0.5s ;
+  -o-transition-duration:0.5s ;
+}
+input:focus{
+  background-color: #000;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.price input{
+width: 20%;
+}
+.price input:focus{
+margin-left:5px;
+margin-right: 5px;
+}
+#total{
+  background-color: #a00d02;
+  padding: 5px 2px;
+  border-radius: 4px;
+}
+#total::before{
+  content:"Total Price :"
+}
+button{
+  width: 100%;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #390053;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition-duration:0.5s ;
+  -webkit-transition-duration:0.5s ;
+  -moz-transition-duration:0.5s ;
+  -ms-transition-duration:0.5s ;
+  -o-transition-duration:0.5s ;
+}
+button:hover{
+  background-color: #51025f;
+  letter-spacing: 1px;
+}
+.btnsearch{
+  display: flex;
+  justify-content: space-between;
+}
+.btnsearch button{
+  width:45%;
+}
+table{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th{
+  text-transform: uppercase;
+
+}
+th,td{
+  padding: 5px;
+}
+#deleteall{
+  margin: 20px 0;
+}
